@@ -14,7 +14,7 @@ export default function App() {
         <p>
           <button
             type="button"
-            onClick={() => setCount((count) => count + 1)}
+            onClick={() => setCount(count + 1)}
             className={styles.button}
           >
             count is: {count}
