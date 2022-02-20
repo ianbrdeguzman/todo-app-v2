@@ -30,6 +30,18 @@ export default function App() {
           </label>
         </li>
         <li>
+          <label htmlFor="stylelint">
+            <input
+              type="checkbox"
+              name="stylelint"
+              id="stylelint"
+              checked
+              className={styles.checkbox}
+            />
+            <span className={styles.label}>Stylelint</span>
+          </label>
+        </li>
+        <li>
           <label htmlFor="prettier">
             <input
               type="checkbox"
