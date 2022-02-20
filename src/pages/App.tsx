@@ -121,6 +121,28 @@ export default function App() {
           </label>
         </li>
         <li>
+          <label htmlFor="rtl">
+            <input
+              type="checkbox"
+              name="rtl"
+              id="rtl"
+              className={styles.checkbox}
+            />
+            <span className={styles.label}>RTL Unit Testing</span>
+          </label>
+        </li>
+        <li>
+          <label htmlFor="cypress">
+            <input
+              type="checkbox"
+              name="cypress"
+              id="cypress"
+              className={styles.checkbox}
+            />
+            <span className={styles.label}>Cypress E2E Testing</span>
+          </label>
+        </li>
+        <li>
           <label htmlFor="ci">
             <input
               type="checkbox"
